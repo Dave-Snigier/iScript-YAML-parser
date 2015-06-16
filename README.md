@@ -4,6 +4,8 @@ Define configuration in YAML file(s)
 ## Usage
 ```
 #include yaml_loader.jsh
+
+// single file
 loadYAMLConfig('../script/somescript/config.yaml');
 
 //absolute path with a directory, looking for config files recursively
